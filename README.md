@@ -1,1 +1,0 @@
-# vikashgathala.github.io
