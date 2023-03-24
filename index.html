@@ -1,51 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="./style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
-	<script type="text/javascript" src="./script.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Vikash's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Serif&display=swap');
+</style>
 
+<script>
+		window.onload = function() {
+			var text = document.getElementById("dynamic-text");
+			var words = ["a Student", "Vikash", "a Coder", "a Learner"];
+			var index = 0;
+			var span = text.querySelector("span");
+
+			setInterval(function() {
+				span.classList.remove("show");
+				setTimeout(function() {
+					span.innerHTML = words[index];
+					index = (index + 1) % words.length;
+					span.classList.add("show");
+				}, 380);
+			}, 2000);
+		};
+	</script>
 </head>
 <body>
-<div class="maint" id="maint">
-
-<div class="slide1" id="slide1">
-	<h1 class="s1h1" id="s1h1">
-		<p class="s1h1p1" id="s1h1p1" align="center">Hey,<br> I'm Vikash!</p>
-		<div class="s1b1d" id="s1b1d"> <a href="#"><button class="s1b1"> hey</button></a></div>
-	</h1>
+	<div class="navbar">
+  <div class="navbar-left">
+    <font class="nameclass">Vikash </font><font class="imclass">Gathala </font>
+  </div>
+  <div class="navbar-right">
+    <a href="https://www.linkedin.com/in/vikash-gathala-0305b3184/" target=”_blank”><font class="aboutcl">Linked</font><font class="mecl">In</font></a>
+    <a href="https://www.instagram.com/imvikashgathala/" target=”_blank”><font class="aboutcl">Insta</font><font class="mecl">gram</font></a>
+    
+  </div>
 </div>
+<div class="backbox">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p id="dynamic-text">I'm <span class="show"></span></p>
+<br>
+<p class="maintext">Pursuing  BTech  at  <font class="hmt">BIT  Mesra</font>  in  <font class="hmt">Computer  Science</font>.<br>I'm  from  <font class="hmt">Jaipur</font>,  Rajasthan.Intermediately experienced in <font class="hmt">C++</font> and <font class="hmt">web development</font>.<br>Dreaming a career in <font class="hmt">AIML </font>and <font class="hmt">data science</font>.<br> A <font class="hmt">Linux </font>enthusiast.</p>
 </div>
-<script type="text/javascript">
-	VanillaTilt.init(document.querySelectorAll(".maint"), {
-		max: 5,
-		speed: 400,
-		glare: true,
-		"max-glare": 0.2,
-	});</script>
-	
-
-
 </body>
 </html>
