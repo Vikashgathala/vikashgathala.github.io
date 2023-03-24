@@ -26,28 +26,28 @@
   	color: #9E9E9F;
   	font-family: 'Montserrat';
   	font-weight: 900;
-  	font-size: 20px;
+  	font-size: 18px;
   }
 
   .imclass {
   	color: black;
   	font-family: 'Montserrat';
   	font-weight: 900;
-  	font-size: 20px;
+  	font-size: 18px;
   }
 
   .aboutcl {
   	color: #9E9E9F;
   	font-family: 'Montserrat';
   	font-weight: 900;
-  	font-size: 17px;
+  	font-size: 15px;
   }
 
   .mecl {
   	color: black;
   	font-family: 'Montserrat';
   	font-weight: 900;
-  	font-size: 17px;
+  	font-size: 15px;
   }
 
   .navbar-right {
@@ -88,7 +88,7 @@
 #dynamic-text {
 			font-family: 'Montserrat';
 			font-weight: bold;
-			font-size: 80px;
+			font-size: 74px;
 			color: #9E9E9F;
 			padding-left: 5vw;
 			padding-top: 7vh;
@@ -115,7 +115,7 @@
 	padding-left: 5.5vw;
 	width: 89vw;
 	padding-top: 3vh;
-	font-size: 21px;
+	font-size: 18px;
 	font-family: 'Montserrat';
 	color: black;
 	letter-spacing: 0.5px;
@@ -123,7 +123,7 @@
 }
 
 .hmt {
-	font-size: 21px;
+	font-size: 18px;
 	font-family: 'Montserrat';
 	color: #9E9E9F;
 	letter-spacing: 0.5px;
