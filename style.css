@@ -185,7 +185,7 @@
     opacity: 0.9;
   transform: translateY(0vh);
   animation-name: slide-upbgclr;
-  animation-duration: 1.3s;
+  animation-duration: 3s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
     z-index: -1;
@@ -211,9 +211,25 @@
     opacity: 0.8;
     transform: translateY(0vh);
   }
+  20% {
+    opacity: 0.5;
+    transform: translateY(0vh);
+  }
+  40% {
+    opacity: 0.3;
+    transform: translateY(0vh);
+  }
+  60% {
+    opacity: 0.2;
+    transform: translateY(0vh);
+  }
+  80% {
+    opacity: 0.1;
+    transform: translateY(0vh);
+  }
   100% {
     opacity: 0;
-    transform: translateY(0);
+    transform: translateY(0vh);
   }
 }
 
