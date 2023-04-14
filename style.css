@@ -7,9 +7,26 @@
 	list-style: none;
 }
 
-body{
-	background: white;
+.backgnd {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
+
+.backgnd::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("./topbg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.05;
+    z-index: -1;
+}
+
 
 .navbar {
     display: flex;
@@ -28,7 +45,7 @@ body{
   }
 
   .navbar-left:hover{
-	transform: scale(1.2);
+	transform: scale(1.16);
 }
 
   .nameclass {
@@ -92,6 +109,7 @@ body{
 	background-attachment: fixed;
 	background-position: center;
 	transition: transform 0.4s ease;
+
 	}
 
 
@@ -146,7 +164,7 @@ body{
 }
 
 .insta:hover{
-	transform: scale(1.2);
+	transform: scale(1.16);
 }
 
 .linkedin{
@@ -154,9 +172,9 @@ body{
 }
 
 .linkedin:hover{
-	transform: scale(1.2);
+	transform: scale(1.16);
 }
 
 .backbox:hover{
-	transform: scale(1.02);
+	transform: scale(1.015);
 }
