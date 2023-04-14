@@ -1,3 +1,5 @@
+	// alert("This Portfolio is optimized for Desktop only. Kindly make sure that you are using desktop.");
+
 	window.onload = function() {
 			var text = document.getElementById("dynamic-text");
 			var words = ["a Student", "Vikash", "a Coder", "a Learner"];

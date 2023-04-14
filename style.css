@@ -7,6 +7,10 @@
 	list-style: none;
 }
 
+body{
+	background: white;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -20,7 +24,12 @@
   .navbar-left {
     text-decoration: none;
     font-family: 'Montserrat';
+    transition: transform 0.4s ease;
   }
+
+  .navbar-left:hover{
+	transform: scale(1.2);
+}
 
   .nameclass {
   	color: #9E9E9F;
@@ -70,8 +79,7 @@
   }
 
 .backbox {
-	
-	background-color: #f3f6fc;
+	background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF, #FFEEFB);
 	width: 94vw;
 	height: 86.5vh;
 	border-radius: 35px;
@@ -83,7 +91,9 @@
 	align-content: center;
 	background-attachment: fixed;
 	background-position: center;
+	transition: transform 0.4s ease;
 	}
+
 
 #dynamic-text {
 			font-family: 'Montserrat';
@@ -106,6 +116,7 @@
 			font-family: 'Montserrat';
 		}
 
+	
 
 .show {
 	font-family: 'Montserrat';
@@ -130,3 +141,22 @@
 
 }
 
+.insta{
+	transition: transform 0.4s ease;
+}
+
+.insta:hover{
+	transform: scale(1.2);
+}
+
+.linkedin{
+	transition: transform 0.4s ease;
+}
+
+.linkedin:hover{
+	transform: scale(1.2);
+}
+
+.backbox:hover{
+	transform: scale(1.02);
+}
