@@ -22,12 +22,15 @@
   .navbar-left {
     text-decoration: none;
     font-family: 'Montserrat';
-    transition: transform 0.4s ease;
+    opacity: 0;
+  transform: translateY(60vh);
+  animation-name: slide-upnbr;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
   }
 
-  .navbar-left:hover{
-	transform: scale(1.16);
-}
+ 
 
   .nameclass {
   	color: #9E9E9F;
@@ -67,8 +70,14 @@
     margin-left: 20px;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid white;
+    border: 1px transparent;
     font-family: 'Montserrat';
+    opacity: 0;
+  transform: translateY(60vh);
+  animation-name: slide-upnbr;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
   }
 
   .navbar-right a:hover {
@@ -89,7 +98,12 @@
 	align-content: center;
 	background-attachment: fixed;
 	background-position: center;
-	transition: transform 0.4s ease;
+	opacity: 0;
+  transform: translateY(45vh);
+  animation-name: slide-upbbx;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 
 	}
 
@@ -101,6 +115,12 @@
 			color: #9E9E9F;
 			padding-left: 5vw;
 			padding-top: 7vh;
+			opacity: 0;
+  transform: translateY(40vh);
+  animation-name: slide-updntxt;
+  animation-duration: 0.85s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 		}
 
 		#dynamic-text span {
@@ -124,12 +144,18 @@
 .maintext {
 	padding-left: 5.5vw;
 	width: 89vw;
-	padding-top: 5vh;
+	padding-top: 3vh;
 	font-size: 18px;
 	font-family: 'Montserrat';
 	color: black;
 	letter-spacing: 0.5px;
 	line-height: 40px;
+	opacity: 0;
+  transform: translateY(30vh);
+  animation-name: slide-upmntxt;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 }
 
 .hmt {
@@ -140,22 +166,46 @@
 
 }
 
-.insta{
-	transition: transform 0.4s ease;
+@keyframes slide-upbbx {
+  0% {
+    opacity: 0;
+    transform: translateY(45vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.insta:hover{
-	transform: scale(1.16);
+@keyframes slide-upmntxt {
+  0% {
+    opacity: 0;
+    transform: translateY(30vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.linkedin{
-	transition: transform 0.4s ease;
+@keyframes slide-updntxt {
+  0% {
+    opacity: 0;
+    transform: translateY(40vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.linkedin:hover{
-	transform: scale(1.16);
-}
-
-.backbox:hover{
-	transform: scale(1.015);
+@keyframes slide-upnbr {
+  0% {
+    opacity: 0;
+    transform: translateY(60vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
