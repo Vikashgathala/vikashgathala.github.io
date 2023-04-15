@@ -72,24 +72,31 @@ background-color: white;
 color: black;}
 
 .backbox {
-background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF, #FFEEFB);
-width: 94vw;
-height: 86.5vh;
-border-radius: 35px;
-margin-left: 2.5vw;
-margin-right: 2.5vw;
-margin-top: 2vh;
-margin-bottom: 5vh;
-align-self: center;
-align-content: center;
-background-attachment: fixed;
-background-position: center;
-opacity: 0;
-transform: translateY(45vh);
-animation-name: slide-upbbx;
-animation-duration: 10s;
-animation-timing-function: ease-out;
-animation-fill-mode: forwards;}
+  background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF, #FFEEFB);
+  width: 94vw;
+  height: 89vh;
+  border-radius: 35px;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  align-self: center;
+  align-content: center;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0;
+  transform: translateY(45vh);
+  animation-name: slide-upbbx;
+  animation-duration: 10s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  position: relative;
+  padding-bottom: 70px;
+}
+
 
 #dynamic-text {
 font-family: 'Montserrat';
@@ -126,7 +133,7 @@ font-size: 18px;
 font-family: 'Montserrat';
 color: black;
 letter-spacing: 0.5px;
-line-height: 40px;
+line-height: 4.5vh;
 opacity: 0;
 transform: translateY(30vh);
 animation-name: slide-upmntxt;
@@ -143,7 +150,8 @@ letter-spacing: 0.5px;}
 .projects{
 margin-left: 33vw;
 position: fixed;
-top: 76vh;
+margin-top: min(1vh, 1vh);
+top: 80vh;
 text-decoration: none;
 border-radius: 28px;
 height: 7vh;
