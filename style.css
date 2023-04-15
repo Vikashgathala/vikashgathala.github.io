@@ -74,11 +74,11 @@ color: black;}
 .backbox {
   background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF, #FFEEFB);
   width: 94vw;
-  height: 89vh;
+  height: 90vh;
   border-radius: 35px;
   margin-left: 2.5vw;
   margin-right: 2.5vw;
-  margin-top: 2vh;
+  margin-top: 1vh;
   margin-bottom: 5vh;
   align-self: center;
   align-content: center;
@@ -216,6 +216,7 @@ transform: translateY(-1.5vh);
 background: white;}
 12%{
 opacity: 1;
+border-radius: 35px;
 transform: translateY(0vh);
 background: white;}
 40%{
