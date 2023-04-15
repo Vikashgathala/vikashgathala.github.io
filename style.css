@@ -130,7 +130,7 @@ line-height: 40px;
 opacity: 0;
 transform: translateY(30vh);
 animation-name: slide-upmntxt;
-animation-duration: 1.5s;
+animation-duration: 1.7s;
 animation-timing-function: ease-out;
 animation-fill-mode: forwards;}
 
@@ -199,14 +199,14 @@ opacity: 0;
 /*filter: blur(5.0px);*/
 border-radius: 3px;
 scale: 0.9;
-transform: translateY(-1vh);
+transform: translateY(-3vh);
 background: linear-gradient(to bottom right, #00D010);}
 35%{
 opacity: 0.4;
 /*filter: blur(2px);*/
 scale: 1.008;
 border-radius: 10px;
-transform: translateY(-3vh);
+transform: translateY(-1.5vh);
 background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF);}
 100%{
 opacity: 1;
@@ -248,12 +248,12 @@ background: linear-gradient(to bottom right, #EE4E5F);}
 opacity: 0;
 scale: 0.9;
 /*filter: blur(5.0px);*/
-transform: translateY(-1vh);}
+transform: translateY(-3vh);}
 35%{
 opacity: 1;
 scale: 1.02;
 /*filter: blur(2px);*/
-transform: translateY(-3vh);}
+transform: translateY(-1.5vh);}
 100%{
 opacity: 1;
 scale: 1;
@@ -266,12 +266,12 @@ transform: translateY(0);}
 opacity: 0;
 scale: 0.9;
 /*filter: blur(5.0px);*/
-transform: translateY(-1vh);}
+transform: translateY(-2.6vh);}
 25%{
 opacity: 1;
 scale: 1.02;
 /*filter: blur(2px);*/
-transform: translateY(-1.5vh);}
+transform: translateY(-1.8vh);}
 100%{
 opacity: 1;
 scale: 1;
@@ -284,12 +284,12 @@ transform: translateY(0);}
 opacity: 0;
 scale: 0.9;
 /*filter: blur(5.0px);*/
-transform: translateY(-1vh);}
+transform: translateY(-3vh);}
 35%{
 opacity: 1;
 scale: 1.02;
 /*filter: blur(2px);*/
-transform: translateY(-3vh);}
+transform: translateY(-1.5vh);}
 100%{
 opacity: 1;
 scale: 1;
@@ -304,7 +304,7 @@ scale: 0.9;
 /*filter: blur(5.0px);*/
 border-radius: 0px;
 background: black;
-transform: translateY(-1vh);
+transform: translateY(-3vh);
 }
 23%{
 opacity: 0.92;
@@ -313,7 +313,7 @@ scale: 1.02;
 /*filter: blur(3.0px);*/
 border-radius: 12px;
 background: black;
-transform: translateY(-3vh);}
+transform: translateY(-1.5vh);}
 
 100%{
 opacity: 1;
@@ -329,12 +329,12 @@ transform: translateY(0);}
 opacity: 0;
 scale: 0.0;
 /*filter: blur(5.0px);*/
-transform: translateY(-1vh);}
+transform: translateY(-3vh);}
 35%{
 opacity: 1;
 scale: 1.04;
 /*filter: blur(2px);*/
-transform: translateY(-3vh);}
+transform: translateY(-1.5vh);}
 100%{
 opacity: 1;
 scale: 1;
