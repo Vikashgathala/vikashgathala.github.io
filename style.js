@@ -1,4 +1,4 @@
-	// alert("This Portfolio is optimized for Desktop only. Kindly make sure that you are using desktop.");
+	alert("This Portfolio is optimized for Desktop mainly. Make sure to clear your browser caches timely to fetch the website with updated resources.");
 
 	window.onload = function() {
 			var text = document.getElementById("dynamic-text");
