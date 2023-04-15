@@ -167,6 +167,7 @@
 
 }
 
+
 .backgnd {
     position: relative;
     height: 100vh;
@@ -196,16 +197,19 @@
 @keyframes slide-upbbx {
   0% {
     opacity: 0;
+    filter: blur(5.0px);
     transform: translateY(35vh);
     background: linear-gradient(to bottom right, #00D010);
   }
   35% {
     opacity: 0.4;
+    filter: blur(2px);
     transform: translateY(-3vh);
     background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF);
   }
   100% {
     opacity: 1;
+    filter: none;
     transform: translateY(0);
     background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF, #FFEEFB);
   }
@@ -246,14 +250,17 @@
 @keyframes slide-upmntxt {
     0% {
     opacity: 0;
+    filter: blur(5.0px);
     transform: translateY(35vh);
   }
   35% {
     opacity: 1;
+    filter: blur(2px);
     transform: translateY(-3vh);
   }
   100% {
     opacity: 1;
+    filter: none;
     transform: translateY(0);
   }
 }
@@ -261,14 +268,17 @@
 @keyframes slide-updntxt {
    0% {
     opacity: 0;
+    filter: blur(5.0px);
     transform: translateY(35vh);
   }
   35% {
     opacity: 1;
+    filter: blur(2px);
     transform: translateY(-3vh);
   }
   100% {
     opacity: 1;
+    filter: none;
     transform: translateY(0);
   }
 }
@@ -276,14 +286,17 @@
 @keyframes slide-upnbr {
    0% {
     opacity: 0;
+    filter: blur(5.0px);
     transform: translateY(35vh);
   }
   35% {
     opacity: 1;
+    filter: blur(2px);
     transform: translateY(-3vh);
   }
   100% {
     opacity: 1;
+    filter: none;
     transform: translateY(0);
   }
 }
