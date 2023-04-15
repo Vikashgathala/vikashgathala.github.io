@@ -25,7 +25,7 @@
     opacity: 0;
   transform: translateY(60vh);
   animation-name: slide-upnbr;
-  animation-duration: 0.85s;
+  animation-duration: 1s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
   }
@@ -75,7 +75,7 @@
     opacity: 0;
   transform: translateY(60vh);
   animation-name: slide-upnbr;
-  animation-duration: 0.85s;
+  animation-duration: 1s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
   }
@@ -101,7 +101,7 @@
 	opacity: 0;
   transform: translateY(45vh);
   animation-name: slide-upbbx;
-  animation-duration: 1s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 
@@ -118,7 +118,7 @@
 			opacity: 0;
   transform: translateY(40vh);
   animation-name: slide-updntxt;
-  animation-duration: 0.85s;
+  animation-duration: 1s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 		}
@@ -153,7 +153,7 @@
 	opacity: 0;
   transform: translateY(30vh);
   animation-name: slide-upmntxt;
-  animation-duration: 1.3s;
+  animation-duration: 1.5s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
@@ -221,6 +221,12 @@
 	color: white;
 	font-family: 'Montserrat';
 	font-size: 23px;
+	opacity: 1;
+  transform: translateY(40vh);
+  animation-name: slide-uplinkblw;
+  animation-duration: 3.0s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 
 }
 
@@ -229,12 +235,14 @@
     opacity: 0;
     filter: blur(5.0px);
     border-radius: 3px;
+    scale: 0.9;
     transform: translateY(35vh);
     background: linear-gradient(to bottom right, #00D010);
   }
   35% {
     opacity: 0.4;
     filter: blur(2px);
+    scale: 1.05;
     border-radius: 10px;
     transform: translateY(-3vh);
     background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF);
@@ -243,6 +251,7 @@
     opacity: 1;
     filter: none;
     border-radius: 37px;
+    scale: 1;
     transform: translateY(0);
     background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF, #FFEEFB);
   }
@@ -283,16 +292,40 @@
 @keyframes slide-upmntxt {
     0% {
     opacity: 0;
+    scale: 0.7;
     filter: blur(5.0px);
     transform: translateY(35vh);
   }
   35% {
     opacity: 1;
+    scale: 1.1;
     filter: blur(2px);
     transform: translateY(-3vh);
   }
   100% {
     opacity: 1;
+    scale: 1;
+    filter: none;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-uplinkblw {
+    0% {
+    opacity: 0;
+    scale: 0.7;
+    filter: blur(5.0px);
+    transform: translateY(20vh);
+  }
+  25% {
+    opacity: 1;
+    scale: 1.2;
+    filter: blur(2px);
+    transform: translateY(-1.5vh);
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
     filter: none;
     transform: translateY(0);
   }
@@ -301,16 +334,19 @@
 @keyframes slide-updntxt {
    0% {
     opacity: 0;
+    scale: 0.7;
     filter: blur(5.0px);
     transform: translateY(35vh);
   }
   35% {
     opacity: 1;
+    scale: 1.1;
     filter: blur(2px);
     transform: translateY(-3vh);
   }
   100% {
     opacity: 1;
+    scale: 1;
     filter: none;
     transform: translateY(0);
   }
@@ -319,6 +355,8 @@
 @keyframes slide-upproj {
    0% {
     opacity: 0.4;
+    scale: 0.7;
+    
     filter: blur(5.0px);
     border-radius: 0px;
     background: black;
@@ -326,17 +364,21 @@
   }
   23% {
     opacity: 0.92;
+    
+    scale: 1.1;
     filter: blur(3.0px);
-    border-radius: 10px;
+    border-radius: 12px;
     background: black;
     transform: translateY(-3vh);
   }
 
   100% {
     opacity: 1;
+    
+    scale: 1;
     filter: none;
     background: black;
-    border-radius: 30px;
+    border-radius: 35px;
     transform: translateY(0);
   }
 }
@@ -344,16 +386,19 @@
 @keyframes slide-upnbr {
    0% {
     opacity: 0;
+    scale: 0.7;
     filter: blur(5.0px);
     transform: translateY(35vh);
   }
   35% {
     opacity: 1;
+    scale: 1.4;
     filter: blur(2px);
     transform: translateY(-3vh);
   }
   100% {
     opacity: 1;
+    scale: 1;
     filter: none;
     transform: translateY(0);
   }
