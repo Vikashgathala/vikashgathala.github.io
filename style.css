@@ -87,7 +87,7 @@ background-position: center;
 opacity: 0;
 transform: translateY(45vh);
 animation-name: slide-upbbx;
-animation-duration: 1.2s;
+animation-duration: 10s;
 animation-timing-function: ease-out;
 animation-fill-mode: forwards;}
 
@@ -196,24 +196,47 @@ animation-fill-mode: forwards;}
 @keyframes slide-upbbx {
 0%{
 opacity: 0;
-/*filter: blur(5.0px);*/
 border-radius: 3px;
 scale: 0.9;
 transform: translateY(-3vh);
-background: linear-gradient(to bottom right, #00D010);}
-35%{
+background: white;}
+4%{
 opacity: 0.4;
-/*filter: blur(2px);*/
 scale: 1.008;
 border-radius: 10px;
 transform: translateY(-1.5vh);
-background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF);}
-100%{
+background: white;}
+12%{
 opacity: 1;
-filter: none;
-border-radius: 37px;
-scale: 1;
-transform: translateY(0);
+transform: translateY(0vh);
+background: white;}
+40%{
+	opacity: 1;
+transform: translateY(0vh);
+background: linear-gradient(to bottom right,#F4FFE6);}
+50%{
+	opacity: 1;
+transform: translateY(0vh);
+background: linear-gradient(to bottom right, #F1FFFC, #F0EDFF);}
+60%{
+	opacity: 1;
+transform: translateY(0vh);
+background: linear-gradient(to bottom right, #ECFFE6, #F4EDFF);}
+70%{
+	opacity: 1;
+transform: translateY(0vh);
+background: linear-gradient(to bottom right, #E6FFE6, #F8EDFF);}
+80%{
+	opacity: 1;
+transform: translateY(0vh);
+background: linear-gradient(to bottom right, #E6FFEA, #FAEDFF);}
+90%{
+	opacity: 1;
+transform: translateY(0vh);
+background: linear-gradient(to bottom right, #EEFFF2, #FFEEFB);}
+100%{
+	opacity: 1;
+transform: translateY(0vh);
 background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF, #FFEEFB);}
 }
 @keyframes slide-upbgclr {
