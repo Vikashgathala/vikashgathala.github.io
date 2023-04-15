@@ -79,7 +79,7 @@ color: black;}
   margin-left: 2.5vw;
   margin-right: 2.5vw;
   margin-top: 1vh;
-  margin-bottom: 5vh;
+  margin-bottom: 5.5vh;
   align-self: center;
   align-content: center;
   background-attachment: fixed;
@@ -87,7 +87,7 @@ color: black;}
   opacity: 0;
   transform: translateY(45vh);
   animation-name: slide-upbbx;
-  animation-duration: 10s;
+  animation-duration: 7s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
   display: flex;
@@ -147,6 +147,12 @@ font-family: 'Montserrat';
 color: #9E9E9F;
 letter-spacing: 0.5px;}
 
+/*.blur {
+  filter: blur(3px);
+  transition: filter 0.2s ease-out;
+}*/
+
+
 .projects{
 margin-left: 33vw;
 position: fixed;
@@ -164,7 +170,7 @@ font-family: 'Montserrat';
 opacity: 1;
 transform: translateY(40vh);
 animation-name: slide-upproj;
-animation-duration: 3.0s;
+animation-duration: 2.8s;
 animation-timing-function: ease-out;
 animation-fill-mode: forwards;}
 
@@ -208,38 +214,38 @@ border-radius: 3px;
 scale: 0.9;
 transform: translateY(-3vh);
 background: white;}
-4%{
+10%{
 opacity: 0.4;
 scale: 1.008;
 border-radius: 10px;
 transform: translateY(-1.5vh);
 background: white;}
-12%{
+22%{
 opacity: 1;
 border-radius: 35px;
 transform: translateY(0vh);
 background: white;}
-40%{
+47%{
 	opacity: 1;
 transform: translateY(0vh);
 background: linear-gradient(to bottom right,#F4FFE6);}
-50%{
+56%{
 	opacity: 1;
 transform: translateY(0vh);
 background: linear-gradient(to bottom right, #F1FFFC, #F0EDFF);}
-60%{
+65%{
 	opacity: 1;
 transform: translateY(0vh);
 background: linear-gradient(to bottom right, #ECFFE6, #F4EDFF);}
-70%{
+74%{
 	opacity: 1;
 transform: translateY(0vh);
 background: linear-gradient(to bottom right, #E6FFE6, #F8EDFF);}
-80%{
+83%{
 	opacity: 1;
 transform: translateY(0vh);
 background: linear-gradient(to bottom right, #E6FFEA, #FAEDFF);}
-90%{
+92%{
 	opacity: 1;
 transform: translateY(0vh);
 background: linear-gradient(to bottom right, #EEFFF2, #FFEEFB);}
@@ -354,6 +360,17 @@ filter: none;
 background: black;
 border-radius: 35px;
 transform: translateY(0);}
+}
+
+@keyframes unblur {
+  0% {
+    filter: blur(10px);
+    opacity: 0;
+  }
+  100% {
+  	opacity: 1;
+    filter: none;
+  }
 }
 
 @keyframes slide-upnbr {
