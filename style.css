@@ -219,20 +219,20 @@ opacity: 0.4;
 scale: 1.008;
 border-radius: 10px;
 transform: translateY(-1.5vh);
-background: white;}
+background: linear-gradient(to bottom right, #FDFFFD, white);;}
 22%{
 opacity: 1;
 border-radius: 35px;
 transform: translateY(0vh);
-background: white;}
+background: linear-gradient(to bottom right, #FCFFFC, white);}
 47%{
 	opacity: 1;
 transform: translateY(0vh);
-background: linear-gradient(to bottom right,#F4FFE6);}
+background: linear-gradient(to bottom right,#FBFFFB);}
 56%{
 	opacity: 1;
 transform: translateY(0vh);
-background: linear-gradient(to bottom right, #F1FFFC, #F0EDFF);}
+background: linear-gradient(to bottom right, #F3FFF5, #F0EDFF);}
 65%{
 	opacity: 1;
 transform: translateY(0vh);
