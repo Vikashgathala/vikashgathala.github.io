@@ -1,4 +1,4 @@
-	alert("This Portfolio is optimized for Desktop mainly. Make sure to clear your browser caches timely to fetch the website with updated resources. High end device is recommended for smooth animations.");
+	// alert("This Portfolio is optimized for Desktop mainly. Make sure to clear your browser caches timely to fetch the website with updated resources. High end device is recommended for smooth animations.");
 
 	window.onload = function() {
 			var text = document.getElementById("dynamic-text");
