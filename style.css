@@ -25,7 +25,7 @@
     opacity: 0;
   transform: translateY(60vh);
   animation-name: slide-upnbr;
-  animation-duration: 0.55s;
+  animation-duration: 0.85s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
   }
@@ -75,7 +75,7 @@
     opacity: 0;
   transform: translateY(60vh);
   animation-name: slide-upnbr;
-  animation-duration: 0.55s;
+  animation-duration: 0.85s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
   }
@@ -101,7 +101,7 @@
 	opacity: 0;
   transform: translateY(45vh);
   animation-name: slide-upbbx;
-  animation-duration: 0.7s;
+  animation-duration: 1s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 
@@ -153,7 +153,7 @@
 	opacity: 0;
   transform: translateY(30vh);
   animation-name: slide-upmntxt;
-  animation-duration: 1s;
+  animation-duration: 1.3s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
@@ -185,7 +185,7 @@
     opacity: 0.9;
   transform: translateY(0vh);
   animation-name: slide-upbgclr;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
     z-index: -1;
@@ -195,50 +195,59 @@
 @keyframes slide-upbbx {
   0% {
     opacity: 0;
-    transform: translateY(45vh);
+    transform: translateY(35vh);
+    background: linear-gradient(to bottom right, #00D010);
   }
-  55% {
-    opacity: 1;
+  35% {
+    opacity: 0.4;
     transform: translateY(-3vh);
+    background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF);
   }
   100% {
     opacity: 1;
     transform: translateY(0);
+    background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF, #FFEEFB);
   }
 }
 @keyframes slide-upbgclr {
   0% {
     opacity: 1;
     transform: translateY(0vh);
+    background: linear-gradient(to bottom right, #4E83EE);
   }
   20% {
     opacity: 0.65;
     transform: translateY(0vh);
+    background: linear-gradient(to bottom right, #4E83EE, #D34EEE);
   }
   40% {
     opacity: 0.4;
     transform: translateY(0vh);
+    background: linear-gradient(to bottom right, #4E83EE, #D34EEE, #EE4E5F);
   }
   60% {
     opacity: 0.25;
     transform: translateY(0vh);
+    background: linear-gradient(to bottom right, #4E83EE, #D34EEE, #EE4E5F);
   }
   80% {
     opacity: 0.12;
     transform: translateY(0vh);
+    background: linear-gradient(to bottom right, #D34EEE, #EE4E5F);
   }
   100% {
     opacity: 0;
     transform: translateY(0vh);
+    background: linear-gradient(to bottom right, #EE4E5F);
   }
 }
 
 @keyframes slide-upmntxt {
     0% {
     opacity: 0;
-    transform: translateY(45vh);
+    transform: translateY(35vh);
   }
-  55% {
+  35% {
     opacity: 1;
     transform: translateY(-3vh);
   }
@@ -251,9 +260,9 @@
 @keyframes slide-updntxt {
    0% {
     opacity: 0;
-    transform: translateY(45vh);
+    transform: translateY(35vh);
   }
-  55% {
+  35% {
     opacity: 1;
     transform: translateY(-3vh);
   }
@@ -266,9 +275,9 @@
 @keyframes slide-upnbr {
    0% {
     opacity: 0;
-    transform: translateY(45vh);
+    transform: translateY(35vh);
   }
-  55% {
+  35% {
     opacity: 1;
     transform: translateY(-3vh);
   }
