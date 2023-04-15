@@ -167,6 +167,29 @@
 
 }
 
+.projects{
+		margin-left: 33vw;
+		position: fixed;
+
+		top: 76vh;
+    text-decoration: none;
+    border-radius: 28px;
+    height: 7vh;
+    width: 28vw;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+    border: 1px transparent;
+    font-family: 'Montserrat';
+    opacity: 1;
+  transform: translateY(40vh);
+  animation-name: slide-upproj;
+  animation-duration: 3.0s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+
+}
+
 
 .backgnd {
     position: relative;
@@ -194,22 +217,32 @@
 }
 
 
+.linkblw{
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 23px;
+
+}
+
 @keyframes slide-upbbx {
   0% {
     opacity: 0;
     filter: blur(5.0px);
+    border-radius: 3px;
     transform: translateY(35vh);
     background: linear-gradient(to bottom right, #00D010);
   }
   35% {
     opacity: 0.4;
     filter: blur(2px);
+    border-radius: 10px;
     transform: translateY(-3vh);
     background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF);
   }
   100% {
     opacity: 1;
     filter: none;
+    border-radius: 37px;
     transform: translateY(0);
     background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF, #FFEEFB);
   }
@@ -279,6 +312,31 @@
   100% {
     opacity: 1;
     filter: none;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-upproj {
+   0% {
+    opacity: 0.4;
+    filter: blur(5.0px);
+    border-radius: 0px;
+    background: black;
+    transform: translateY(35vh);
+  }
+  23% {
+    opacity: 0.92;
+    filter: blur(3.0px);
+    border-radius: 10px;
+    background: black;
+    transform: translateY(-3vh);
+  }
+
+  100% {
+    opacity: 1;
+    filter: none;
+    background: black;
+    border-radius: 30px;
     transform: translateY(0);
   }
 }

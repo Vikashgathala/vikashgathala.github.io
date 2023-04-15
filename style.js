@@ -2,7 +2,7 @@
 
 	window.onload = function() {
 			var text = document.getElementById("dynamic-text");
-			var words = ["a Student", "Vikash", "a Coder", "a Learner"];
+			var words = ["Student", "Vikash", "Coder", "Learner"];
 			var index = 0;
 			var span = text.querySelector("span");
 
