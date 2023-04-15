@@ -183,7 +183,7 @@ animation-timing-function: ease-out;
 animation-fill-mode: forwards;z-index: -1;}
 
 .linkblw{
-color: white;
+color: #FFF5FF;
 font-family: 'Montserrat';
 font-size: 23px;
 opacity: 1;
@@ -196,15 +196,15 @@ animation-fill-mode: forwards;}
 @keyframes slide-upbbx {
 0%{
 opacity: 0;
-filter: blur(5.0px);
+/*filter: blur(5.0px);*/
 border-radius: 3px;
 scale: 0.9;
-transform: translateY(35vh);
+transform: translateY(-1vh);
 background: linear-gradient(to bottom right, #00D010);}
 35%{
 opacity: 0.4;
-filter: blur(2px);
-scale: 1.05;
+/*filter: blur(2px);*/
+scale: 1.008;
 border-radius: 10px;
 transform: translateY(-3vh);
 background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF);}
@@ -246,13 +246,13 @@ background: linear-gradient(to bottom right, #EE4E5F);}
 @keyframes slide-upmntxt {
 0%{
 opacity: 0;
-scale: 0.7;
-filter: blur(5.0px);
-transform: translateY(35vh);}
+scale: 0.9;
+/*filter: blur(5.0px);*/
+transform: translateY(-1vh);}
 35%{
 opacity: 1;
-scale: 1.1;
-filter: blur(2px);
+scale: 1.02;
+/*filter: blur(2px);*/
 transform: translateY(-3vh);}
 100%{
 opacity: 1;
@@ -264,13 +264,13 @@ transform: translateY(0);}
 @keyframes slide-uplinkblw {
 0%{
 opacity: 0;
-scale: 0.7;
-filter: blur(5.0px);
-transform: translateY(20vh);}
+scale: 0.9;
+/*filter: blur(5.0px);*/
+transform: translateY(-1vh);}
 25%{
 opacity: 1;
-scale: 1.2;
-filter: blur(2px);
+scale: 1.02;
+/*filter: blur(2px);*/
 transform: translateY(-1.5vh);}
 100%{
 opacity: 1;
@@ -282,13 +282,13 @@ transform: translateY(0);}
 @keyframes slide-updntxt {
 0%{
 opacity: 0;
-scale: 0.7;
-filter: blur(5.0px);
-transform: translateY(35vh);}
+scale: 0.9;
+/*filter: blur(5.0px);*/
+transform: translateY(-1vh);}
 35%{
 opacity: 1;
-scale: 1.1;
-filter: blur(2px);
+scale: 1.02;
+/*filter: blur(2px);*/
 transform: translateY(-3vh);}
 100%{
 opacity: 1;
@@ -300,17 +300,17 @@ transform: translateY(0);}
 @keyframes slide-upproj {
 0%{
 opacity: 0.4;
-scale: 0.7;
-filter: blur(5.0px);
+scale: 0.9;
+/*filter: blur(5.0px);*/
 border-radius: 0px;
 background: black;
-transform: translateY(35vh);
+transform: translateY(-1vh);
 }
 23%{
 opacity: 0.92;
 
-scale: 1.1;
-filter: blur(3.0px);
+scale: 1.02;
+/*filter: blur(3.0px);*/
 border-radius: 12px;
 background: black;
 transform: translateY(-3vh);}
@@ -327,13 +327,13 @@ transform: translateY(0);}
 @keyframes slide-upnbr {
 0%{
 opacity: 0;
-scale: 0.7;
-filter: blur(5.0px);
-transform: translateY(35vh);}
+scale: 0.0;
+/*filter: blur(5.0px);*/
+transform: translateY(-1vh);}
 35%{
 opacity: 1;
-scale: 1.4;
-filter: blur(2px);
+scale: 1.04;
+/*filter: blur(2px);*/
 transform: translateY(-3vh);}
 100%{
 opacity: 1;
