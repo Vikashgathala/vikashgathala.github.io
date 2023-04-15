@@ -147,12 +147,6 @@ font-family: 'Montserrat';
 color: #9E9E9F;
 letter-spacing: 0.5px;}
 
-/*.blur {
-  filter: blur(3px);
-  transition: filter 0.2s ease-out;
-}*/
-
-
 .projects{
 margin-left: 33vw;
 position: fixed;
@@ -285,12 +279,10 @@ background: linear-gradient(to bottom right, #EE4E5F);}
 0%{
 opacity: 0;
 scale: 0.9;
-/*filter: blur(5.0px);*/
 transform: translateY(-3vh);}
 35%{
 opacity: 1;
 scale: 1.02;
-/*filter: blur(2px);*/
 transform: translateY(-1.5vh);}
 100%{
 opacity: 1;
@@ -303,12 +295,10 @@ transform: translateY(0);}
 0%{
 opacity: 0;
 scale: 0.9;
-/*filter: blur(5.0px);*/
 transform: translateY(-2.6vh);}
 25%{
 opacity: 1;
 scale: 1.02;
-/*filter: blur(2px);*/
 transform: translateY(-1.8vh);}
 100%{
 opacity: 1;
@@ -321,12 +311,10 @@ transform: translateY(0);}
 0%{
 opacity: 0;
 scale: 0.9;
-/*filter: blur(5.0px);*/
 transform: translateY(-3vh);}
 35%{
 opacity: 1;
 scale: 1.02;
-/*filter: blur(2px);*/
 transform: translateY(-1.5vh);}
 100%{
 opacity: 1;
@@ -339,7 +327,6 @@ transform: translateY(0);}
 0%{
 opacity: 0.4;
 scale: 0.9;
-/*filter: blur(5.0px);*/
 border-radius: 0px;
 background: black;
 transform: translateY(-3vh);
@@ -348,7 +335,6 @@ transform: translateY(-3vh);
 opacity: 0.92;
 
 scale: 1.02;
-/*filter: blur(3.0px);*/
 border-radius: 12px;
 background: black;
 transform: translateY(-1.5vh);}
@@ -377,12 +363,10 @@ transform: translateY(0);}
 0%{
 opacity: 0;
 scale: 0.0;
-/*filter: blur(5.0px);*/
 transform: translateY(-3vh);}
 35%{
 opacity: 1;
 scale: 1.04;
-/*filter: blur(2px);*/
 transform: translateY(-1.5vh);}
 100%{
 opacity: 1;
