@@ -147,6 +147,22 @@ font-family: 'Montserrat';
 color: #9E9E9F;
 letter-spacing: 0.5px;}
 
+.hmtprojects {
+    padding-left: 5.5vw;
+    font-size: 28px;
+    font-family: 'Montserrat';
+    color: #9E9E9F;
+    letter-spacing: 0.5px;}
+
+.hmtshowproject {
+  text-decoration: underline;
+  padding-left: 0vw;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  color: #9E9E9F;
+  letter-spacing: 0.5px;}
+
+
 .projects{
 margin-left: 33vw;
 position: fixed;
@@ -200,6 +216,17 @@ animation-name: slide-uplinkblw;
 animation-duration: 3.0s;
 animation-timing-function: ease-out;
 animation-fill-mode: forwards;}
+
+.linkblw{
+  color: #FFF5FF;
+  font-family: 'Montserrat';
+  font-size: 23px;
+  opacity: 1;
+  transform: translateY(20vh);
+  animation-name: slide-uplinkblw;
+  animation-duration: 3.0s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;}
 
 @keyframes slide-upbbx {
 0%{
