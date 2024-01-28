@@ -36,8 +36,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const deltaY = mouseY - centerY;
 
     // Adjust the content's position based on the distance from the center
-    const offsetX = deltaX * 0.02; // You can adjust the attraction strength
-    const offsetY = deltaY * 0.02;
+    const offsetX = deltaX * 0.01; // You can adjust the attraction strength
+    const offsetY = deltaY * 0.01;
 
     content.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
   }
