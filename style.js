@@ -18,3 +18,33 @@ window.onload = function() {
     }, 400);
   }, 2500);
 };
+
+document.addEventListener("DOMContentLoaded", function() {
+  const container = document.querySelector(".ripple-container");
+  const content = document.querySelector(".content");
+
+  container.addEventListener("mousemove", function(e) {
+    moveContent(e.clientX, e.clientY);
+  });
+
+  function moveContent(mouseX, mouseY) {
+    const containerRect = container.getBoundingClientRect();
+    const centerX = containerRect.width / 2;
+    const centerY = containerRect.height / 2;
+
+    const deltaX = mouseX - centerX;
+    const deltaY = mouseY - centerY;
+
+    // Adjust the content's position based on the distance from the center
+    const offsetX = deltaX * 0.02; // You can adjust the attraction strength
+    const offsetY = deltaY * 0.02;
+
+    content.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
+  }
+
+  // Reset content position when mouse leaves the container
+  container.addEventListener("mouseleave", function() {
+    content.style.transform = "translate(0, 0)";
+  });
+});
+

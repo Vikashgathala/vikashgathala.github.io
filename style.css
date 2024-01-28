@@ -6,6 +6,26 @@ font-family: 'Poppins', sans-serif;
 text-decoration: none;
 list-style: none;}
 
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.ripple-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-out;
+}
+
+
 .navbar {
 display: flex;
 justify-content: space-between;
@@ -14,7 +34,7 @@ background-color: transparent;
 padding: 10px;
 padding-left: 2.8vw;
 padding-right: 2.8vw;}
-  
+
 .navbar-left {
 text-decoration: none;
 font-family: 'Montserrat';
@@ -123,7 +143,7 @@ opacity: 1;
 font-family: 'Montserrat';}
 
 .show {
-font-family: 'Montserrat';}	
+font-family: 'Montserrat';}
 
 .maintext {
 padding-left: 5.5vw;
