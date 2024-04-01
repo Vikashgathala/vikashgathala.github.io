@@ -249,73 +249,74 @@ animation-fill-mode: forwards;}
   animation-fill-mode: forwards;}
 
 @keyframes slide-upbbx {
-0%{
-opacity: 0;
-border-radius: 3px;
-scale: 0.9;
-transform: translateY(-3vh);
-background: white;}
-10%{
-opacity: 0.4;
-scale: 1.008;
-border-radius: 10px;
-transform: translateY(-1.5vh);
-background: linear-gradient(to bottom right, #FDFFFD, white);;}
-22%{
-opacity: 1;
-border-radius: 35px;
-transform: translateY(0vh);
-background: linear-gradient(to bottom right, #FCFFFC, white);}
-47%{
-	opacity: 1;
-transform: translateY(0vh);
-background: linear-gradient(to bottom right,#FBFFFB);}
-56%{
-	opacity: 1;
-transform: translateY(0vh);
-background: linear-gradient(to bottom right, #F3FFF5, #F0EDFF);}
-65%{
-	opacity: 1;
-transform: translateY(0vh);
-background: linear-gradient(to bottom right, #ECFFE6, #F4EDFF);}
-74%{
-	opacity: 1;
-transform: translateY(0vh);
-background: linear-gradient(to bottom right, #E6FFE6, #F8EDFF);}
-83%{
-	opacity: 1;
-transform: translateY(0vh);
-background: linear-gradient(to bottom right, #E6FFEA, #FAEDFF);}
-92%{
-	opacity: 1;
-transform: translateY(0vh);
-background: linear-gradient(to bottom right, #EEFFF2, #FFEEFB);}
-100%{
-	opacity: 1;
-transform: translateY(0vh);
-background: linear-gradient(to bottom right, #EEFFF2, #EEF1FF, #FFEEFB);}
+  0% {
+    opacity: 0;
+    border-radius: 3px;
+    scale: 0.9;
+    transform: translateY(-3vh);
+    background: white;
+  }
+  5% {
+    opacity: 0.2;
+    scale: 0.95;
+    border-radius: 6px;
+    transform: translateY(-2vh);
+    background: linear-gradient(to bottom right, #FFD6A8, white);
+  }
+  10% {
+    opacity: 0.4;
+    scale: 1;
+    border-radius: 10px;
+    transform: translateY(-1vh);
+    background: linear-gradient(to bottom right, #FFF8EF, #FFDDB3);
+  }
+  25% {
+    opacity: 0.6;
+    border-radius: 15px;
+    transform: translateY(-0.5vh);
+    background: linear-gradient(to bottom right, #FFF2E1, #FFE3BF);
+  }
+  50% {
+    opacity: 0.8;
+    border-radius: 20px;
+    transform: translateY(0vh);
+    background: linear-gradient(to bottom right, #FFEAD0, #FFEAD0);
+  }
+  75% {
+    opacity: 0.9;
+    border-radius: 25px;
+    transform: translateY(0.5vh);
+    background: linear-gradient(to bottom right, #FFE3BF, #FFF2E1);
+  }
+  100% {
+    opacity: 1;
+    border-radius: 30px;
+    transform: translateY(1vh);
+    background: linear-gradient(to bottom right, #FFDDB3, #FFF8EF);
+  }
 }
+
 @keyframes slide-upbgclr {
 0%{
 opacity: 1;
 transform: translateY(0vh);
-background: linear-gradient(to bottom right, #4E83EE);}
+background: linear-gradient(to bottom right, #A8C7FF);}
 20%{
 opacity: 0.65;
 transform: translateY(0vh);
-background: linear-gradient(to bottom right, #4E83EE, #D34EEE);}
+background: linear-gradient(to bottom right, #A8C7FF, #FFB072);}
 40%{
 opacity: 0.4;
 transform: translateY(0vh);
-background: linear-gradient(to bottom right, #4E83EE, #D34EEE, #EE4E5F);}
+background: linear-gradient(to bottom right, #A8C7FF, #FFB072, #EE4E5F);}
 60%{
 opacity: 0.25;
 transform: translateY(0vh);
-background: linear-gradient(to bottom right, #4E83EE, #D34EEE, #EE4E5F);}
+background: linear-gradient(to bottom right, #A8C7FF, #FFB072, #EE4E5F);}
 80%{
 opacity: 0.12;
 transform: translateY(0vh);
-background: linear-gradient(to bottom right, #D34EEE, #EE4E5F);}
+background: linear-gradient(to bottom right, #A8C7FF, #EE4E5F);}
 100%{
 opacity: 0;
 transform: translateY(0vh);
